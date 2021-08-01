@@ -13,7 +13,7 @@ _The Project Instant Ftp server ,servers a file which is on your the local machi
 
 **External Dependencies**
 ### **Ngrok**
-_Ngrok is simple tunneling tool ,Make sure it sholuld be installed and authentication key is set.Use this link to install [Ngrok](http://ngrok.com)
+_Ngrok is simple tunneling tool ,Make sure it sholuld be installed and authentication key is set.Use this link to install [Ngrok](http://ngrok.com)_
 
 
 ## Installation
@@ -28,8 +28,15 @@ $ git clone https://github.com/SPR-Ideas/Make_FTP.git
 $ make install
 ```
 
+## Remove
+To remove the script just navigate to the file directory and run
+```
+$ make uninstall
+```
+
 ## Usage
 
 ```
-$ make_ftp <file_location>
+$ make-ftp <file_location>
 ```
+It will give you a link with ngrok sub-domain which can be shared between the users to share the file.
