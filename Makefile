@@ -15,3 +15,4 @@ uninstall :
 	rm -rf ~/.make_ftp
 	sed -i "s#alias make-ftp='~/.make_ftp/make_ftp'##g" ~/.bashrc
 
+
